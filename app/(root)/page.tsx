@@ -1,6 +1,6 @@
 import Hello from "@/app/components/hello";
 
-export default function Home() {
+const Home = () => {
   console.log("What am I server or client? ");
   return (
     <>
@@ -9,3 +9,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;
